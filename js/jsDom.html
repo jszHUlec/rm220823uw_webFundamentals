@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function init() {
+            var element = document.querySelector("div");
+            element.innerText = "<p>Hello world</p>"
+            element.innerHTML = "<p>Hello world po raz drugi</p>"
+
+            var obrazek = document.querySelector("img");
+            obrazek.setAttribute("onclick", "zmianaKoloru()")
+        }
+
+        function zmianaKoloru() {
+            var p = document.getElementById("paragraf")
+            p.style.color ="blue"
+        }
+    </script>
+    
+</head>
+<body>
+    <p id="paragraf">Jakis tekst</p>
+    <div id="blok"></div>
+    <img src="https://www.karmimypsiaki.pl/blog/wp-content/uploads/2022/09/AdobeStock_227764609-scaled.jpeg" width="200px">
+
+    <script>
+        alert("hello")
+    </script>
+</body>
+</html>

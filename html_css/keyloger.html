@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS KEY LOGGER</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        function keyup(element){
+            element.setAttribute("value", element.value);
+        }
+    </script>
+</head>
+<body>
+    <input type="password"  onkeyup=keyup(this) value="">
+</body>
+</html>
