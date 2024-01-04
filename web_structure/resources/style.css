@@ -1,0 +1,18 @@
+ul {
+    list-style-type: none;
+}
+div {
+    padding: 20px;
+} 
+li {
+    float: left;
+    margin: 5px;
+    background-color: lightgray;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+li:hover {
+    background-color: orange;
+}

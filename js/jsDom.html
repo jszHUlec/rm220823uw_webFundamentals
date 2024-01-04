@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
     <script>
         function init() {
@@ -12,9 +13,11 @@
             element.innerHTML = "<p>Hello world po raz drugi</p>"
 
             var obrazek = document.querySelector("img");
+
             obrazek.setAttribute("onclick", "zmianaKoloru()")
         }
 
+        
         function zmianaKoloru() {
             var p = document.getElementById("paragraf")
             p.style.color ="blue"
